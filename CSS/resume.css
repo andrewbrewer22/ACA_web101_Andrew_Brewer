@@ -1,0 +1,86 @@
+.main
+{
+    background-color: black;
+}
+.section1
+{
+    background-color: rgb(255, 214, 160);
+    width: auto;
+    height: 300pt;
+}
+.head
+{
+    text-align: center;
+    font-size: 40pt;
+    
+
+    background-color: rgb(231, 201, 161);
+    width: 35%;
+    height: 25%;
+
+    position: absolute;
+    top: 15%;
+    left: 32%;
+}
+/* section2 */
+.gridContainer
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(255, 205, 140);
+    width: auto;
+    height: 300pt;
+    text-align: center;
+}
+.profilePic
+{
+    width: 150pt;
+    height: 150pt;
+    border-radius: 50%;
+    margin-left: 30%;
+}
+.education
+{
+    background-color: rgb(255, 195, 116);
+    height: 150pt;
+}
+.skills
+{
+    background-color: rgb(255, 195, 116);
+    height: 150pt;
+}
+.expertise
+{
+    background-color: rgb(255, 195, 116);
+    height: 150pt;
+}
+.experience
+{
+    text-align: center;
+    background-color: sandybrown;
+    height: 150pt;
+}
+.subTitle
+{
+    font-size: 20pt;
+}
+.subText
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200pt;
+    margin-left: 24%;
+}
+.bottomSubTitle
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300pt;
+    margin-left: 36%;
+}
+.index
+{
+    padding-top: 2%;
+    font-size: 15;
+    text-align: center;
+}

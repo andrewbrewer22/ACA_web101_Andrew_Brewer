@@ -1,0 +1,50 @@
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pageTitle
+{
+    text-align: center;
+    font-size: 50pt;
+    color: white;   
+}
+.pageSubTitle
+{
+    text-align: center;
+    font-size: 20pt;
+    color: white;
+}
+.assignments
+{
+    padding: 0.5%;
+    font-size: 15;
+    text-align: center;
+}
+a:link {
+    color: rgb(0, 162, 255);
+    background-color: transparent;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  a:visited {
+    color: rgb(38, 0, 255);
+    background-color: transparent;
+    text-decoration: none;
+    opacity: 0.6;
+  }
+  
+  a:hover {
+    color: rgb(0, 195, 255);
+    background-color: transparent;
+    text-decoration: underline;
+    opacity: 1;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+    opacity: 1;
+  }

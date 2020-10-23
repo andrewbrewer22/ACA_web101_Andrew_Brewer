@@ -1,0 +1,109 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.image
+{
+    position: relative;
+    text-align: center;
+    color: red;
+    font-size: 60pt;
+    font-weight: bold;
+    
+}
+  .nasa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+    font-family: "Verdana";
+    text-shadow: 0 0 10px #FF0000, 0 0 5px #0000FF;
+  }
+
+  .footer
+  {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      /* align-items: center; */
+      /* justify-content: space-between; */
+    
+      margin-top: auto;
+      margin-left: auto;
+      margin-right: auto;
+      /* padding-top: 10%; */
+      transform: translateY(10%);
+      width: 50%;  
+      background-color: crimson;
+      opacity: 0.5;
+  }
+.footer:hover
+{
+    opacity: 1;
+}
+.element1
+{
+    /* transform: translate(60%, -65%); */
+    display: flex;
+    flex-flow: column;
+    padding-left: 10%;
+    width: auto;
+}
+
+.element2
+{
+    /* transform: translate(-60%, -65%); */
+    display: flex;
+    flex-flow: column;
+    padding-right: 20%;
+    width: auto;
+}
+.index
+{
+    padding-top: 5%;
+    font-size: 15;
+    text-align: center;
+}
+
+.element3
+{
+
+}
+.contactUs
+{
+    font-size: 15pt;
+    padding-top: 9%;
+}
+.name
+{
+    padding-top: 8%;
+}
+.nameBar
+{
+    background-color: white;
+    opacity: 1;
+    width: 100pt;
+    height: 20pt;
+}
+.message
+{
+    padding-top: 8%;
+}
+.messageBar
+{
+    background-color: white;
+    opacity: 1;
+    width: 100pt;
+    height: 20pt;
+}
+.sendBar
+{
+    background-color: rgb(2, 28, 255);
+    opacity: 0.7;
+    width: 30pt;
+    height: 20pt;
+    color: white;
+    text-align: center;
+}

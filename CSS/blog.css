@@ -1,0 +1,42 @@
+.headTitle
+{
+    font-size: 60pt;
+    color: rgb(255, 81, 0);
+    text-align: center;
+    top: 5%;
+    /* left: 50%; */
+    /* transform: translate(-50%, -200%); */
+    font-family: "Times New Roman";
+    /* text-shadow: 0 0 10px #FF0000, 0 0 5px #0000FF; */
+}
+.subTitle
+{
+    font-size: 30pt;
+    /* color: red; */
+    text-align: center;
+    padding-top: 2%;
+    /* left: 50%; */
+    /* transform: translate(-50%, -200%); */
+    font-family: "Times New Roman";
+    text-shadow: 0 0 10px #ffae00, 0 0 5px #ffa600;
+}
+.week1
+{
+    padding-top: 5%;
+    text-align: center;
+    /* word-wrap: normal; */
+}
+p
+{
+    padding-left: 25%;
+    width: 50%;
+    text-align: center;
+    font-size: 15pt;
+    color: tomato;
+}
+.index
+{
+    padding-top: 5%;
+    font-size: 15;
+    text-align: center;
+}
