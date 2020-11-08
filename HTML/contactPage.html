@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/contactPage.css ">
+    <title>Contact Page</title>
+</head>
+<body class="body">
+    
+    <form action="./resultsContactPage.html" method="GET" enctype="multipart/form-data">
+        
+        <div class="userInput" id="name">
+            <label for="name">Name</label>
+            <input type="text" name="Name">
+        </div>
+
+        <div class="userInput" id="email">
+            <label for="name">Email</label>
+            <input type="email" name="Email">
+        </div>
+
+        <div class="userInput" id="birthday">
+            <label for="name">Birthdate</label>
+            <input type="date" name="date" id="date" min="1900-01-01">
+        </div>
+
+        <div class="userInput" id="contactBack">
+            <label for="name">Would you like to be contacted back?</label>
+            <div>
+                <label for="yes">Yes</label>
+                <input type="radio" name="Yes" value="Yes">
+                <label for="yes">No</label>
+                <input type="radio" name="No" value="No">
+            </div>
+        </div>
+
+        <div class="userInput" id="howDidYouHear">
+            <label for="name">How did you hear about us?</label>
+            <div>
+                <select name="How did you hear about us?" multiple>
+                    <option value="Classmate">Classmate</option>
+                    <option value="Resume">Resume</option>
+                    <option value="LinkedIn">LinkedIn</option>
+                    <option value="Coding_Academy_Rec">Coding Academy Rec</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="userInput" id="comments">
+            <label for="name">Comments</label>
+            <div>
+                <textarea id="comments" name="comments" minlength="10" maxlength="200"></textarea>
+            </div>
+        </div>
+        <div class="userInput">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <div class="index">
+        <a href="../index.html">Web101 Portfolio</a>
+    </div>
+
+</body>
+</html>

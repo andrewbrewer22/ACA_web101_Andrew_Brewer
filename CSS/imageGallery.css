@@ -1,0 +1,75 @@
+.index
+{
+    padding-top: 5%;
+    font-size: 15;
+    text-align: center;
+}
+
+.body
+{
+  background-color: grey;
+}
+.image
+{
+  margin: auto;
+  text-align: center;
+  position: relative;
+  /* float: left; */
+}
+.text
+{
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;  
+
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.image img:hover
+{
+  opacity: 0.2;
+  
+}
+
+@media(min-width: 400px)
+ {
+   
+    #image_1
+    {
+      
+      width: 100px;
+    }
+  }
+
+@media(min-width: 600px)
+ {
+   
+    #image_1
+    {
+      
+      width: 200px;
+    }
+  }
+
+  @media(min-width: 700px)
+ {
+   
+    #image_1
+    {
+      
+      width: 300px;
+    }
+  }
+
+@media(min-width: 800px)
+ {
+  #image_1
+  {
+    width: 400px;
+  }
+  }

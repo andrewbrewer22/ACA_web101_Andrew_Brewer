@@ -1,0 +1,70 @@
+@media(min-width: 200px)
+{
+    .body
+    {   
+      background-image: url(../Images/RedBackground.gif);
+      background-size: contain;
+    }
+    .userInput
+    {
+        color: white;
+        font-size: 5pt;
+        text-align: center;
+        padding: 0.5%;
+    }
+}
+
+@media(min-width: 576px)
+{
+    .body
+    {   
+      background-image: url(../Images/RedBackground.gif);
+      background-size: contain;
+    }
+    .userInput
+    {
+        color: white;
+        font-size: 10pt;
+        text-align: center;
+        padding: 0.5%;
+    }
+}
+
+@media(min-width: 700px)
+{
+    .body
+    {   
+      background-image: url(../Images/RedBackground.gif);
+      background-size: contain;
+    }
+    .userInput
+    {
+        color: white;
+        font-size: 15pt;
+        text-align: center;
+        padding: 0.5%;
+    }
+}
+
+/* Desktop */
+@media(min-width: 992px)
+{
+    .body
+    {   
+      background-image: url(../Images/RedBackground.gif);
+      background-size: contain;
+    }
+    .userInput
+    {
+        color: white;
+        font-size: 20pt;
+        text-align: center;
+        padding: 0.5%;
+    }
+}
+.index
+{
+    padding-top: 5%;
+    font-size: 15;
+    text-align: center;
+}
