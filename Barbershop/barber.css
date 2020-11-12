@@ -1,33 +1,331 @@
+
+@media(min-width: 576px)
+{
+    .index
+{
+    /* float: left; */
+    padding-top: 5%;
+    /* font-size: pt; */
+    text-align: center;
+}
+/* Top_Menu */
 .welcomeBody
 {
     background-image: url(../Barbershop_Images/CatPawBackground.jpg)
 }
 .menu
-{
+{   
+        color: rgb(224, 45, 0);
+        background-color: rgb(218, 189, 111);
         width: 100%;
-        position: fixed;
-
-        z-index: 1;
-        margin-top: -15%;
 }
+#buttons
+  {
+      margin-left: 28%;
+      margin-top: -4%;
+      text-align: center;
+  }
 .button {
-    border: none;
-    color: white;
-    padding: 15px 32px;
+    float: left;
+    background-color: rgb(0, 0, 0);
+    border-color: orangered;
+    border: currentColor;
+    color: rgb(255, 136, 0);
+    padding: 1% 1%;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    /* display: flex; */
+    font-size: 80%;
+    margin: 1% 2%;
+    /* margin: auto; */
     cursor: pointer;
   }
 #welcomeTitle
 {
+    margin-top: 3%;
     text-align: center;
-    font-size: 50pt;
+    font-size: 150%;
     /* margin-left: 0%; */
 }
-#words
+.categoryTitle
 {
-    font-size: 200pt;
+    padding-top: 4%;
+    text-align: center;
+    font-size: 150%;
+}
+/* Home */
+.homeImg
+{
+ float: left;
+ z-index: -1;   
+
+ text-align: center;
+ /* margin-top: -6%; */
+ margin-left: auto;
+ margin-right: auto;
+}
+/* About */
+.aboutText
+{
+    font-size: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+}
+/* Shop */
+.galleryText
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#galleryImg
+{
+    width: 30%;
+    height: auto;
+}
+/* News */
+.newsText
+{
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center;
+    width: 40%;
+    font-size: 100%;
+}
+/* Contact */
+.contactText
+{
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 120%;
+    text-align: center;
+    
+}
+
+}
+
+
+
+@media(min-width: 700px)
+{
+    .index
+{
+    /* float: left; */
+    padding-top: 5%;
+    /* font-size: pt; */
+    text-align: center;
+}
+/* Top_Menu */
+.welcomeBody
+{
+    background-image: url(../Barbershop_Images/CatPawBackground.jpg)
+}
+.menu
+{   
+        color: rgb(224, 45, 0);
+        background-color: rgb(218, 189, 111);
+        width: 100%;
+}
+#buttons
+  {
+      margin-left: 27%;
+      margin-top: -2%;
+      text-align: center;
+  }
+.button {
+    float: left;
+    background-color: rgb(0, 0, 0);
+    border-color: orangered;
+    border: currentColor;
+    color: rgb(255, 136, 0);
+    padding: 1% 1%;
+    text-align: center;
+    text-decoration: none;
+    /* display: flex; */
+    font-size: 100%;
+    margin: 1% 2%;
+    /* margin: auto; */
+    cursor: pointer;
+  }
+#welcomeTitle
+{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 200%;
+    /* margin-left: 0%; */
+}
+.categoryTitle
+{
+    padding-top: 4%;
+    text-align: center;
+    font-size: 140%;
+}
+/* Home */
+.homeImg
+{
+ float: left;
+ z-index: -1;   
+
+ text-align: center;
+ /* margin-top: -6%; */
+ margin-left: auto;
+ margin-right: auto;
+}
+/* About */
+.aboutText
+{
+    font-size: 90%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+}
+/* Shop */
+.galleryText
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+#galleryImg
+{
+    width: 20%;
+    height: auto;
+}
+/* News */
+.newsText
+{
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center;
+    width: 30%;
+    font-size: 100%;
+}
+/* Contact */
+.contactText
+{
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 100%;
+    text-align: center;
+    
+}
+
+}
+
+
+
+@media(min-width: 992px)
+{
+    .index
+{
+    /* float: left; */
+    padding-top: 5%;
+    /* font-size: pt; */
+    text-align: center;
+}
+/* Top_Menu */
+.welcomeBody
+{
+    background-image: url(../Barbershop_Images/CatPawBackground.jpg)
+}
+.menu
+{   
+        color: rgb(224, 45, 0);
+        background-color: rgb(218, 189, 111);
+        width: 100%;
+}
+#buttons
+  {
+      margin-left: 32%;
+      margin-top: -4%;
+      text-align: center;
+  }
+.button {
+    float: left;
+    background-color: rgb(0, 0, 0);
+    border-color: orangered;
+    border: currentColor;
+    color: rgb(255, 136, 0);
+    padding: 1% 1%;
+    text-align: center;
+    text-decoration: none;
+    /* display: flex; */
+    font-size: 100%;
+    margin: 1% 2%;
+    /* margin: auto; */
+    cursor: pointer;
+  }
+#welcomeTitle
+{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 300%;
+    /* margin-left: 0%; */
+}
+.categoryTitle
+{
+    padding-top: 4%;
+    text-align: center;
+    font-size: 150%;
+}
+/* Home */
+.homeImg
+{
+ float: left;
+ z-index: -1;   
+
+ text-align: center;
+ /* margin-top: -6%; */
+ margin-left: auto;
+ margin-right: auto;
+}
+/* About */
+.aboutText
+{
+    font-size: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+}
+/* Shop */
+.galleryText
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#galleryImg
+{
+    width: 30%;
+    height: auto;
+}
+/* News */
+.newsText
+{
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center;
+    width: 40%;
+    font-size: 120%;
+}
+/* Contact */
+.contactText
+{
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 120%;
+    text-align: center;
+    
+}
+
 }
