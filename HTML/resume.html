@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <script src="../JS/resume-interactive.js"></script>
     <link rel="stylesheet" href="../CSS/resume.css">
 </head>
 <body class="main">
     <div class="section1">
-        <div class="head">Andrew Brewer
+        <div class="head" onmouseover="elemHoverOn(this)" onmouseout="elemHoverOut(this)" id="proName">
+            Andrew Brewer
             <p>Student</p>
         </div>
     </div>
@@ -25,12 +27,14 @@
             </p>
         </div>
 
-        <img src="../Images/profilePic2.jpg" alt="profilePicture" width="270" height="371.25" class="profilePic" >
+        <img onmousedown="elemClick(this)" id="proPic" src="../Images/profilePic2.jpg" alt="profilePicture" width="270" height="371.25" class="profilePic" >
         <div class="contactInfo">
             <div class="subTitle">Contact Info</div>
             <p class="subText">
                 Email: andrewwilsonbrewer22@gmail.com
-                Phone: 253-244-8669
+            </p>
+            <p onmousedown="elemClick(this)" id="phoneNum">
+                Click here for phone number
             </p>
         </div>
 
