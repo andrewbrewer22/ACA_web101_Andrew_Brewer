@@ -16,3 +16,11 @@
     /* font-size: pt; */
     text-align: center;
 }
+
+.header
+{
+    font-size: 30pt;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
