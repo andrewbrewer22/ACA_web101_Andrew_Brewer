@@ -72,20 +72,21 @@ a:link {
     background-size: cover;
   }
 
+  
   .img1{
-    background-image: url(/Images_Final/AboutMe.png);
+    background-image: url(../Images_Final/AboutMe.png);
     min-height: 45%;
   }
   .img2{
-    background-image: url(/Images_Final/Resume.png);
+    background-image: url(../Images_Final/Resume.png);
     min-height: 45%;
   }
   .img3{
-    background-image: url(/Images_Final/ContactPage.png);
+    background-image: url(../Images_Final/ContactPage.png);
     min-height: 45%;
   }
   .img4{
-    background-image: url(/Images_Final/ProjectGallery.png);
+    background-image: url(../Images_Final/ProjectGallery.png);
     min-height: 45%;
   }
 
