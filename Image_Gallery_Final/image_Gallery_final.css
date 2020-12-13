@@ -53,42 +53,42 @@ a:link {
   }
 
   .img1{
-    background-image: url(/Images_Final/LandingPage.png);
+    background-image: url(../Images_Final/LandingPage.png);
     min-height: 45%;
   }
   .img2{
-    background-image: url(/Images_Final/Resume.png);
+    background-image: url(../Images_Final/Resume.png);
     min-height: 45%;
   }
   .img3{
-    background-image: url(/Images_Final/ContactPage.png);
+    background-image: url(../Images_Final/ContactPage.png);
     min-height: 45%;
   }
   .img4{
-    background-image: url(/Images_Final/ImageGallery.png);
+    background-image: url(../Images_Final/ImageGallery.png);
     min-height: 45%;
   }
   .img5{
-    background-image: url(/Images_Final/AboutMe.png);
+    background-image: url(../Images_Final/AboutMe.png);
     min-height: 45%;
   }
   .img6{
-    background-image: url(/Images_Final/BarberShop.png);
+    background-image: url(../Images_Final/BarberShop.png);
     min-height: 45%;
   }
   .img7{
-    background-image: url(/Images_Final/Blog.png);
+    background-image: url(../Images_Final/Blog.png);
     min-height: 45%;
   }
   .img8{
-    background-image: url(/Images_Final/DummyDataFilter.png);
+    background-image: url(../Images_Final/DummyDataFilter.png);
     min-height: 45%;
   }
   .img9{
-    background-image: url(/Images_Final/Nasa.png);
+    background-image: url(../Images_Final/Nasa.png);
     min-height: 45%;
   }
   .img10{
-    background-image: url(/Images_Final/ResponsiveWebsite.png);
+    background-image: url(../Images_Final/ResponsiveWebsite.png);
     min-height: 45%;
   }
